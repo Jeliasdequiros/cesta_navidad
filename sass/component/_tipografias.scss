@@ -18,3 +18,41 @@
     &__formulario {
     }
   }
+
+//Página gracias
+  .gracias {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__recuadro {
+      &--texto {
+      }
+    }
+  }
+  .maingracias {
+    &__titulo {
+      font-size: $font-size-titulo;
+      font-family: 'Rouge Script', cursive;
+      font-weight: 100;
+    color: $color-beig;
+    }
+    &__subtitulo {
+      color:$color-rojo;
+      font-size: 122px;
+    }
+    &__ganador {
+      color:$color-ganador;
+      font-size: 96px;
+      position:relative;
+      top: -6.50rem; 
+    }
+    &__recuadro {
+    background-color:$color-beig;
+    color:$color-blanco;
+    width:572px;
+    padding: 20px;
+    border-radius: 10px;
+    }
+  }
+  

@@ -6,14 +6,31 @@
     &__nombre {
     }
     &__inputNombre {
+      padding-left: 1rem;
+      &::placeholder {
+        color: lighten($color-rojo, 30%);
+        font-style: italic;
+      }
     }
     &__email {
+     
     }
     &__inputEmail {
+      padding-left: 1rem;
+      &::placeholder {
+        color: lighten($color-rojo, 30%);
+        font-style: italic;
+      }
     }
     &__localidad {
+     
     }
     &__inputLocalidad {
+      padding-left: 1rem;
+      &::placeholder {
+        color: lighten($color-rojo, 30%);
+        font-style: italic;
+      }
     }
     &__tituloEncuesta {
     }
